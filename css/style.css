@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+}
+.todo {
+  width: 600px;
+  margin: 54px auto;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+.todo h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.todo form {
+  text-align: center;
+}
+
+.todo form input[type="text"] {
+  padding: 2px 15px;
+}
+.todo form button {
+  border: 1px solid #000;
+}
+.lists {
+  width: 600px;
+  margin: 10px auto;
+  text-align: center;
+  cursor: pointer;
+}
+.lists ul li {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.lists ul li i {
+  margin: 0px 1px 0 6px;
+  background: #ddd;
+  padding: 0px 8px;
+}
+.lists ul li button {
+  margin: 0px 1px 0 6px;
+  background: #ddd;
+  padding: 0px 8px;
+  font-size: 20px;
+}
